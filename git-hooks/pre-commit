@@ -4,7 +4,7 @@ echo "Commit Message"
 
 INPUT_FILE=$1
 
-echo $INPUT_FILE
+echo "$INPUT_FILE"
 
 #exit $?
 
