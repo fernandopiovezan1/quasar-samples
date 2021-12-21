@@ -26,6 +26,7 @@ The server and container will start automatically. Once you make any change and 
 
 ## Different Modes
 
+
 This template currently loads a _SPA_ application mode of Quasar.
 
 If you would like to work with the PWA or SSR versions of Quasar, please make the following changes to the `start` script entries in the `package.json`.
