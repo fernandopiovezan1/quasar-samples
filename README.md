@@ -1,8 +1,6 @@
 ![Quasar Framework logo](https://cdn.rawgit.com/quasarframework/quasar-art/863c14bd/dist/svg/quasar-logo-full-inline.svg)
 
 
-
-
 # Quasar App Codesandbox Template
 
 > A Template for using Quasar on Codesandbox.io.
