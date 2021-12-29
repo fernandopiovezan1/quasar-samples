@@ -2,7 +2,8 @@ CHANGELOG
 ----------------------
 
 [A ser implantada]
-* [Sétima branch](https://github.com/fernandopiovezan1/quasar-samples/commit/fe78bebc3c3cc180c23b1fb4348c260190267d61) - Issue -> [#8](https://github.com/fernandopiovezan1/quasar-samples/issues/#8)
+* [Oitava branch](https://github.com/fernandopiovezan1/quasar-samples/commit/6237e10c51ec246dfb8dc6a100ec7e37fb40020b) - Issue -> [#8](https://github.com/fernandopiovezan1/quasar-samples/issues/#8)
+* [Sétima branch](https://github.com/fernandopiovezan1/quasar-samples/commit/3988782270b02f05c332b64d67431b017fb3f385) - Issue -> [#8](https://github.com/fernandopiovezan1/quasar-samples/issues/#8)
 * [Sexta branch](https://github.com/fernandopiovezan1/quasar-samples/commit/9f3435f416917e063d3f54dea190500621287116) - Issue -> [#8](https://github.com/fernandopiovezan1/quasar-samples/issues/#8)
 * [Quinta branch](https://github.com/fernandopiovezan1/quasar-samples/commit/5ef841c3f5e55caf28268fa1a39846c9416944cd) - Issue -> [#8](https://github.com/fernandopiovezan1/quasar-samples/issues/#8)
 * [Quarta branch](https://github.com/fernandopiovezan1/quasar-samples/commit/9bf49416eff192101cfb60424ab4b864476a85d0) - Issue -> [#8](https://github.com/fernandopiovezan1/quasar-samples/issues/#8)
