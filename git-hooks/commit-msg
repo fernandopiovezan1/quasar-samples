@@ -8,7 +8,7 @@ commit_message_check (){
       issueRegex='(\(#[0-9]+\))'
       separator=':'
 
-      
+
 
       if [ `echo ${#messagemerge}` -lt 1 ]
       then
@@ -52,7 +52,7 @@ commit_message_check (){
             messagecheck=`echo "$gitmessage" | grep -w $initialMsg | grep -iE $issueRegex | grep $separator`
             messageFirst=`echo "$firstLine" | head -1 | grep -iE ": .{1,59}$"`
             # check to see if the message-check var is empty
-            if [[ -z "$messagecheck" && -z $messageFirst ]]
+            if [ -z "$messagecheck" -a -z "$messageFirst" ]
             then
                   echo -e "\e[91mA mensagem de commit: '$gitmessage' não atende os padrões"
                   echo " "
