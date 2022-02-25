@@ -21,3 +21,4 @@ quinta-branch
 sexta-branch
 *.sln
 quarta-branch
+.eslintrc.js
