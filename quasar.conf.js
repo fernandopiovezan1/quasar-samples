@@ -1,4 +1,5 @@
 // Configuration for your app
+
 const path = require('path')
 module.exports = function (ctx) {
   return {
