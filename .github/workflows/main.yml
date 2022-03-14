@@ -1,0 +1,19 @@
+name: Validate PR
+
+on:
+  pull_request:
+    branches: [develop]
+    types: [opened, reopened]
+
+env:
+  BRANCH: ${{ github.ref }}
+
+jobs:
+  validate_pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone main repo
+        uses: actions/checkout@v2
+      - name: execute teste
+        run: echo "testado"
+        
