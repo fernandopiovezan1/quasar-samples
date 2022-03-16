@@ -18,3 +18,5 @@ CHANGELOG
 [v0.0.2](https://github.com/fernandopiovezan1/quasar-samples/releases/tag/v0.0.2)
 
 [0.0.3](https://github.com/fernandopiovezan1/quasar-samples/releases/tag/0.0.3)
+
+
