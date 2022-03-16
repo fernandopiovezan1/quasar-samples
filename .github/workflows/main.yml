@@ -3,6 +3,7 @@ name: Validate PR
 on:
   pull_request:
     branches: [develop]
+    types: [opened, reopened]
 
 env:
   BRANCH: ${{ github.ref }}
