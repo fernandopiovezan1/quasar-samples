@@ -2,8 +2,10 @@ name: Get functions to deploy
 
 on:
   pull_request:
-    branches: [ develop ]
-    types: [ opened ]
+    types: 
+      - opened
+    branches: 
+      - develop
 
 env:
   BRANCH: ${{ github.event.pull_request.head.ref }}
