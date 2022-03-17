@@ -1,0 +1,20 @@
+name: Validate Push
+
+on:
+  push:
+    branches: [develop]
+
+env:
+  BRANCH: ${{ github.ref }}
+  MSG: ${{ github.event.pull_request.body }}
+  
+jobs:
+  validate_push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: get mensagem
+        shell: bash
+        run: echo '${{ github.event.pull_request.body }}'
+      - uses: tonynguyenit18/github-action-custom-vars@v1
+      - run: echo $RECENT_MERGED_BRANCH_NAME
